@@ -1,0 +1,89 @@
+
+.clearfix::after  {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body    {
+    width: 960px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.HeaderWrapper  {
+    position: relative;
+    width: 960px;
+    height: 65px;
+    border-bottom: 1px double;
+}
+
+.MyName {
+    position: relative;
+    width: 100px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding: 15px 10px 11px;
+    background-color: darkslateblue;
+    color: white;   
+    font-size: 26px;
+
+}
+
+.TopRightLinks  {
+    position: absolute;
+    right: 0;
+    margin-top: 0%;
+}
+
+#AboutLink  {
+    position: absolute;
+    width: 40px;
+    padding: 10px;
+    border-right: 1px double;
+    right: 160px;
+}
+
+#PortfolioLink  {
+    position: absolute;
+    width: 60px;
+    padding: 10px;
+    border-right: 1px double;
+    right: 75px;
+}
+
+#ContactLink    {
+    position: absolute;
+    width: 50px;
+    padding: 10px;
+    right: 0;
+}
+
+.BodyWrapper    {
+    color: darkslateblue;
+    position: relative;
+    font-size: 26px;
+    border: 1px double;
+    height: 535px;
+    top: 40px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#AboutMeBox {
+    border-bottom: 1px double;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.ImageFloat {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+p   {
+    font-size: 16px;
+    color: black;
+}
+
