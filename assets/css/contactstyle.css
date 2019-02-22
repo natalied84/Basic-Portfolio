@@ -1,0 +1,46 @@
+
+
+
+
+.ContactBodyWrapper    {
+    color: darkslateblue;
+    background-color: white;
+    position: relative;
+    font-size: 26px;
+    border: 1px double;
+    height: 535px;
+    top: 40px;
+    padding: 30px;
+    margin-bottom: 80px;
+}
+
+.ContactPageText    {
+    font-size: 18px;
+    color: black;
+    line-height: 2;
+}
+
+#ContactMeBox {
+    border-bottom: 1px double;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#NameBox    {
+    height: 22px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    border: 1px double;
+}
+
+#EmailBox   {
+    height: 22px;
+    background-color: rgb(243, 243, 243);
+    border: 1px double;
+}
+
+#MessageBox {
+    height: 300px;
+    background-color: rgb(243, 243, 243);
+    border: 1px double;
+}
