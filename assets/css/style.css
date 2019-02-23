@@ -5,6 +5,10 @@
     clear: both;
 }
 
+h1  {
+    margin: 0;
+}
+
 body    {
     margin: 0;
     background-color: #d4d4d4;
@@ -13,9 +17,10 @@ body    {
 }
 
 header{
+    font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 0;
     height: 65px;
-    border-bottom: 1px double;
+    border-bottom: 1px double #cccccc;
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
@@ -26,7 +31,7 @@ header{
     width: 960px;
     margin: 0 auto;
     height: 65px;
-    border-bottom: 1px double;
+    border-bottom: 1px double #cccccc;
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
 }
@@ -34,10 +39,10 @@ header{
 .MyName {
     float: left;
     text-align: center;
-    width: 200px;
+    width: auto;
     height: 40px;
-    padding: 20px 10px 6px;
-    background-color: darkslateblue;
+    padding: 13px 10px 13px;
+    background-color: #4aaaa5;
     color: white;   
     font-size: 26px;
 
@@ -54,7 +59,7 @@ header{
     width: 40px;
     margin-top: 15px;
     padding-right: 10px;
-    border-right: 1px double;
+    border-right: 1px double #cccccc;
     right: 152px;
 }
 
@@ -63,7 +68,7 @@ header{
     width: 60px;
     margin-top: 15px;
     padding-right: 10px;    
-    border-right: 1px double;
+    border-right: 1px double #cccccc;
     right: 70px;
 }
 
@@ -76,13 +81,13 @@ header{
 
 
 .ColorStrip {
-    background-color: darkslateblue;
+    background-color: #4aaaa5;
     height: 4px;
 }
 
 .BottomBar  {
     color: white;
-    background-color: #483D54;
+    background-color: #666666;
     background-image: url("https://www.transparenttextures.com/patterns/mooning.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     height: 30px;
