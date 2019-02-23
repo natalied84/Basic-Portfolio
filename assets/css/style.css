@@ -6,27 +6,33 @@
 }
 
 body    {
-    width: 960px;
-    margin: 0 auto;
-    background-color: bisque;
+    margin: 0;
+    background-color: #d4d4d4;
+    background-image: url("https://www.transparenttextures.com/patterns/mooning.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 header{
     margin: 0;
-    width: 100%;
+    height: 65px;
+    border-bottom: 1px double;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .HeaderWrapper  {
     position: relative;
-    width: 100%;
+    width: 960px;
+    margin: 0 auto;
     height: 65px;
     border-bottom: 1px double;
-    background-color: white;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
 }
 
 .MyName {
     float: left;
-    width: 100px;
     text-align: center;
     width: 200px;
     height: 40px;
@@ -71,11 +77,14 @@ header{
 
 .ColorStrip {
     background-color: darkslateblue;
-    height: 10px;
+    height: 4px;
 }
 
 .BottomBar  {
-    background-color: gainsboro;
+    color: white;
+    background-color: #483D54;
+    background-image: url("https://www.transparenttextures.com/patterns/mooning.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     height: 30px;
     text-align: center;
     padding-top: 15px;

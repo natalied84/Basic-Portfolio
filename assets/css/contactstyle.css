@@ -3,6 +3,8 @@
 
 
 .ContactBodyWrapper    {
+    width: 960px;
+    margin: 0 auto;
     color: darkslateblue;
     background-color: white;
     position: relative;
