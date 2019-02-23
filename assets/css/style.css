@@ -13,7 +13,8 @@ body    {
     margin: 0;
     background-color: #d4d4d4;
     background-image: url("https://www.transparenttextures.com/patterns/mooning.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /* These don't want to load correctly as local assets and I never got a 
+    chance to figure out why*/
 }
 
 header{
@@ -23,7 +24,6 @@ header{
     border-bottom: 1px double #cccccc;
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .HeaderWrapper  {
@@ -89,7 +89,6 @@ header{
     color: white;
     background-color: #666666;
     background-image: url("https://www.transparenttextures.com/patterns/mooning.png");
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     height: 30px;
     text-align: center;
     padding-top: 15px;
